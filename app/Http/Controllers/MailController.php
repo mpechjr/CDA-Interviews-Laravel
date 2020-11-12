@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
 use App\Mail\SendMail;
+use App\Models\Page;
 
 class MailController extends Controller
 {
@@ -22,7 +23,8 @@ class MailController extends Controller
             'message'   =>   $request->message
         );
 
-     Mail::to($request->email)->send(new SendMail($data));
+    $info = Page::select('email_1')->first();
+     Mail::to($info->email_1)->send(new SendMail($data));
      return back()->with('success', 'Thanks for contacting us!');
 
     }
