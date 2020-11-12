@@ -22,6 +22,11 @@ class DatabaseSeeder extends Seeder
             'title' => Str::random(10),
             'email_1' => Str::random(10).'@gmail.com',
             'content' => Str::random(200),
+            'meta_title_1' => Str::random(15),
+            'meta_title_2' => Str::random(15),
+            'meta_description_1' => Str::random(25),
+            
+            'meta_description_2' => Str::random(25),
         ]);
     }
 }
