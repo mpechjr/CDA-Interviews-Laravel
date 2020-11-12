@@ -7,6 +7,19 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+## This Demo
+
+To setup up initial data for the front end website perform the following steps:
+
+php artisan migrate
+
+php artisan db:seed  or php artisan db:seed --force on
+
+
+## Using the App
+
+To edit content and other data Click on the Page Menu Link. All content can be updated from this page.
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
