@@ -41361,11 +41361,7 @@ var render = function() {
                   staticClass:
                     "font-semibold text-xl text-gray-800 leading-tight"
                 },
-                [
-                  _vm._v(
-                    "\n               Manage Post - (Laravel 8 Inertia JS CRUD with Jetstream  Tailwind CSS - ItSolutionStuff.com)\n           "
-                  )
-                ]
+                [_vm._v("\n               Manage Page\n           ")]
               )
             ]
           },
