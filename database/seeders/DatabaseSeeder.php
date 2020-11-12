@@ -19,7 +19,7 @@ class DatabaseSeeder extends Seeder
         // \App\Models\User::factory(10)->create();
         DB::table('pages')->insert([
             'id' => 1,
-            'name' => Str::random(10),
+            'title' => Str::random(10),
             'email_1' => Str::random(10).'@gmail.com',
             'content' => Str::random(200),
         ]);
