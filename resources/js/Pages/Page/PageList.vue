@@ -6,7 +6,7 @@
     
 
         <template #description>
-           Upate Home Page Content
+           Upate Home Page Content and Title
         </template>
 
         <template #form>
